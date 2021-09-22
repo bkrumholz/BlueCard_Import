@@ -9,6 +9,7 @@ https://www.blueshieldca.com/bsca/bsc/wcm/connect/provider/provider_content_en/g
 Blue Shield provides a list of prefixes with dates to indicate what payer destination should be used for each insurance prefix. This file is released on a monthly basis. This python program converts the Blue Shield list of prefixes to an Epic CMG Import format that contains only active prefixes for Blue Cross.
 
 Example Blue Shield file format:
+
 Prefix|Occurrence in File|Destination (C=BC,T=BS)|Not used|Start Date|End Date
 
 A1A|01|C| |20190101|99999999|
