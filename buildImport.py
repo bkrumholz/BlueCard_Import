@@ -90,7 +90,7 @@ def createConfig() -> None:
     config_object = ConfigParser()
     config_object['Default'] = {
     "input_dir": r'C:/Output/BlueCard/        #Directory where Blue Shield file is located',
-    "cmp_id": '973        #CMP record ID to use for import to Epic (Record will be overridden)',
+    "cmp_id": '999999        #CMP record ID to use for import to Epic (Record will be overridden)',
     "output_dir": r'C:/Output/BlueCard/        #Directory for output of import file',
     "prefix_skip": '        #Comma delimited list of prefixes to skip over',
     "expire_lag:": '52        #Number of weeks to continue using prefix after its expiration date'
