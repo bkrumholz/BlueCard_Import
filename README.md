@@ -22,7 +22,7 @@ How to use:
 python buildImport.py
 
     *It is important to note that if you are running the program from the command prompt you should be in the project directory
-2) The first time it runs, a config.ini will be created. You should open up the config.ini file and update the settings as needed.
+2) The first time it runs, a config.ini will be created. You should open up the config.ini file and update the settings as needed. You should definitely update the cmp_id should be updated to the component record ID where you want to store the list of Anthem routed prefixes.
 3) Run the program a second time, it will now prompt for the import file. You only need to specify the filename and not the full path.
 4) The program will run and create an Epic import file in the output directory specified in config.ini.
 5) Transfer the import file to the Epic server.
