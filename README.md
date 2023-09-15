@@ -3,6 +3,7 @@ This script converts the Blue Shield prefix file to a format that can be importe
 Example Blue Shield file format:
 
 Prefix|Occurrence in File|Destination (C=BC,T=BS)|Not used|Start Date|End Date
+
 A1A|01|C| |20190101|99999999|
 
 Assumptions:
